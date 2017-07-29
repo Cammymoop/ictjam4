@@ -17,113 +17,26 @@
 :compileJava UP-TO-DATE
 :processResources UP-TO-DATE
 :classes UP-TO-DATE
-:jar UP-TO-DATE
+:jar
+:deobfJar
+:sourceTestJava UP-TO-DATE
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:test UP-TO-DATE
+:extractMcpData SKIPPED
+:extractMcpMappings SKIPPED
 :getVersionJson
-:extractNatives SKIPPED
 :extractUserdev UP-TO-DATE
-:getAssetIndex UP-TO-DATE
-:getAssets
-Current status: 280/1281   21%
-Current status: 499/1281   38%
-Current status: 920/1281   71%
-Current status: 1280/1281   99%
-:makeStart SKIPPED
-:runClient
-[16:51:38] [main/INFO] [GradleStart]: Extra: []
-[16:51:38] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, /home/felixnemis/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[16:51:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[16:51:38] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[16:51:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[16:51:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[16:51:38] [main/INFO] [FML]: Forge Mod Loader version 14.21.1.2387 for Minecraft 1.12 loading
-[16:51:38] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_111, running on Linux:amd64:3.13.0-24-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[16:51:38] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[16:51:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[16:51:38] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[16:51:38] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[16:51:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:51:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[16:51:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[16:51:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:51:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:51:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:51:38] [main/ERROR] [FML]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[16:51:39] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[16:51:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:51:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[16:51:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[16:51:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[16:51:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[16:51:40] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[16:51:41] [main/INFO]: Setting user: Player206
-[16:51:44] [main/WARN]: Skipping bad option: lastServer:
-[16:51:44] [main/INFO]: LWJGL Version: 2.9.4
-[16:51:46] [main/INFO] [FML]: -- System Details --
-Details:
-	Minecraft Version: 1.12
-	Operating System: Linux (amd64) version 3.13.0-24-generic
-	Java Version: 1.8.0_111, Oracle Corporation
-	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 130499000 bytes (124 MB) / 654835712 bytes (624 MB) up to 3732406272 bytes (3559 MB)
-	JVM Flags: 0 total; 
-	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
-	FML: 
-	Loaded coremods (and transformers): 
-	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.5.0 NVIDIA 375.39' Renderer: 'GeForce GTX 660M/PCIe/SSE2'
-[16:51:46] [main/INFO] [FML]: MinecraftForge v14.21.1.2387 Initialized
-[16:51:46] [main/INFO] [FML]: Replaced 921 ore ingredients
-[16:51:47] [main/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
-[16:51:47] [main/INFO] [FML]: Searching /home/felixnemis/Projects/testMod/run/mods for mods
-[16:51:48] [main/INFO] [FML]: Forge Mod Loader has identified 4 mods to load
-[16:51:48] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at CLIENT
-[16:51:48] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at SERVER
-[16:51:49] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
-[16:51:49] [main/INFO] [FML]: Processing ObjectHolder annotations
-[16:51:49] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
-[16:51:49] [main/INFO] [FML]: Identifying ItemStackHolder annotations
-[16:51:49] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
-[16:51:49] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
-[16:51:49] [Forge Version Check/INFO] [ForgeVersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[16:51:49] [main/INFO] [FML]: Applying holder lookups
-[16:51:49] [main/INFO] [FML]: Holder lookups applied
-[16:51:49] [main/INFO] [FML]: Applying holder lookups
-[16:51:49] [main/INFO] [FML]: Holder lookups applied
-[16:51:49] [main/INFO] [FML]: Applying holder lookups
-[16:51:49] [main/INFO] [FML]: Holder lookups applied
-[16:51:49] [main/INFO] [FML]: Applying holder lookups
-[16:51:49] [main/INFO] [FML]: Holder lookups applied
-[16:51:49] [main/INFO] [FML]: Injecting itemstacks
-[16:51:49] [main/INFO] [FML]: Itemstack injection complete
-[16:51:49] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 49326780 nanos
-[16:51:49] [Forge Version Check/INFO] [ForgeVersionCheck]: [forge] Found status: UP_TO_DATE Target: null
-[16:51:49] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[16:51:50] [Thread-4/INFO]: Initializing LWJGL OpenAL
-[16:51:50] [Thread-4/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[16:51:50] [Thread-4/INFO]: OpenAL initialized.
-[16:51:50] [Sound Library Loader/INFO]: Sound engine started
-[16:51:51] [main/INFO] [FML]: Max texture size: 16384
-[16:51:52] [main/INFO]: Created: 512x512 textures-atlas
-[16:51:53] [main/INFO] [FML]: Injecting itemstacks
-[16:51:53] [main/INFO] [FML]: Itemstack injection complete
-[16:51:53] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 4 mods
-[16:51:53] [main/WARN]: Skipping bad option: lastServer:
-[16:51:54] [main/WARN]: ERROR : Generic error while loading narrator : 
-
-There is an incompatible JNA native library installed on this system
-Expected: 5.1.0
-Found:    3.2.2
-/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib:/home/felixnemis/.gradle/caches/minecraft/net/minecraft/natives/1.12.
-To resolve this issue you may do one of the following:
- - remove or uninstall the offending library
- - set the system property jna.nosys=true
- - set jna.boot.library.path to include the path to the version of the 
-   jnidispatch library included with the JNA jar file you are using
-
-[16:51:54] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[16:52:27] [main/INFO]: Stopping!
-[16:52:27] [main/INFO]: SoundSystem shutting down...
-[16:52:28] [main/WARN]: Author: Paul Lamb, www.paulscode.com
+:genSrgs SKIPPED
+:reobfJar
+:extractRangemapReplacedMain UP-TO-DATE
+:retromapReplacedMain UP-TO-DATE
+:sourceJar
+:assemble
+:check UP-TO-DATE
+:build
 
 BUILD SUCCESSFUL
 
-Total time: 1 mins 20.827 secs
+Total time: 36.586 secs
