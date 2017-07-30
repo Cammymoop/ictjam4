@@ -1,0 +1,12 @@
+[{
+  "modid": "felixnemis_ictjam4",
+  "name": "ICTJam4",
+  "description": "Mod for ICT Game Jam 4",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "logoFile": "assets/examplemod/textures/logo.png",
+  "url": "",
+  "updateJSON": "",
+  "authorList": ["Charlie Burnham"],
+  "credits": ""
+}]
